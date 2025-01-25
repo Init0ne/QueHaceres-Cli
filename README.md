@@ -2,7 +2,7 @@
 
 [![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-![Demo CLI](https://via.placeholder.com/800x400.png?text=Captura+de+Demo+Interactiva)
+![Demo CLI](https://github.com/Init0ne/QueHaceres-Cli/blob/main/demo.png)
 
 # Spanish Version
 
@@ -42,11 +42,11 @@ To use QueHaceres-Cli, run the following command:
 
 ### Examples 📚
 
-- Help: `help`
-- Add a new task: `add buy milk`
-- Remove a task: `remove 1`
-- List all tasks: `list completed`
-- Mark a task as completed: `change-status 1 completed`
+- Help: `ayuda`
+- Add a new task: `agregar buy milk`
+- Remove a task: `eliminar 1`
+- List all tasks: `listar completed`
+- Mark a task as completed: `cambiar-estado 1 completada`
 
 ## Data Structure 💾
 
@@ -64,6 +64,7 @@ Tasks are stored in JSON format:
     "CancelledAt": null
   }
 ]
+```
 
 ## Possible Improvements 🗺️
 
@@ -80,7 +81,7 @@ You could include more specific details on how to contribute to the project, suc
 - Follow code style guidelines (if relevant).
 - Detail the pull request workflow.
 
-�Contributions are welcome! Please fork the repository and submit a pull request.
+-Contributions are welcome! Please fork the repository and submit a pull request.
 
 1. Fork this repository.
 2. Create a new branch with a descriptive name (git checkout -b feature/new-feature).
@@ -95,7 +96,7 @@ This project is licensed under the MIT License.
 # Version Espaool
 
 ## Descripcion
-QueHaceres-Cli es una aplicaci�n de interfaz de l�nea de comandos (CLI) dise�ada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios a�adir, eliminar y listar tareas directamente desde el terminal.
+QueHaceres-Cli es una aplicacion de interfaz de linea de comandos (CLI) disenada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios anadir, eliminar y listar tareas directamente desde el terminal.
 
 ## Características principales 🚀
 
@@ -107,7 +108,7 @@ QueHaceres-Cli es una aplicaci�n de interfaz de l�nea de comandos (CLI) dise
 - 📤 Cargar tareas desde archivo
 - 🛠️ Persistencia en formato JSON
 
-## Instalaci�n
+## Instalacion
 
 Para instalar QueHaceres-Cli, siga estos pasos:
 
@@ -122,7 +123,7 @@ Para utilizar QueHaceres-Cli, ejecute el siguiente comando:
 ### Comandos
 
 - `ayuda`: Comando de ayuda.
-- `agregar <descripcion>`: A�ade una nueva tarea.
+- `agregar <descripcion>`: Anade una nueva tarea.
 - `eliminar <taskId>`: Elimina una tarea por su ID.
 - `listar [estado]`: Lista todas las tareas, el filtro de estado es opcional.
 - `cambiar-estado <taskId>`: Marca una tarea como completada.
@@ -130,16 +131,17 @@ Para utilizar QueHaceres-Cli, ejecute el siguiente comando:
 
 ### Ejemplos 📚
 
-- Ayuda: ayuda
-- A�adir una nueva tarea: agregar comprar leche
-- Eliminar una tarea: eliminar 1
-- Listar todas las tareas: listar completadas
-- Marcar una tarea como completada: cambiar-estado 1 completada
+- Ayuda: `ayuda`
+- Agregar nueva tarea: `agregar buy milk`
+- Eliminar tarea: `eliminar 1`
+- Listar todas las tareas: `listar completed`
+- Cambiar estado de tarea a completada: `cambiar-estado 1 completada`
 
 ## Estructura de datos 💾
 
 Las tareas se guardan en formato JSON:
 
+```json
 [
   {
   "Id": 1,
@@ -151,6 +153,7 @@ Las tareas se guardan en formato JSON:
   "CancelledAt": null
   }
 ]
+```
 
 ## Posibles mejoras 🗺️
 
@@ -161,20 +164,20 @@ Las tareas se guardan en formato JSON:
 
 ## Contribuir 🤝
 
-Podr�as incluir detalles m�s espec�ficos sobre c�mo contribuir al proyecto, tales como:
+Podrias incluir detalles mas especificos sobre como contribuir al proyecto, tales como:
 - Crear un issue si encuentras un bug o tienes una sugerencia.
-- Seguir las reglas de estilo de c�digo (si es relevante).
+- Seguir las reglas de estilo de codigo (si es relevante).
 - Detallar el flujo de trabajo del pull request.
 
-�Las contribuciones son bienvenidas! Por favor, haga un fork del repositorio y env�e un pull request.
+-Las contribuciones son bienvenidas! Por favor, haga un fork del repositorio y envie un pull request.
 
 1. Haz un fork de este repositorio.
 2. Crea una nueva rama con un nombre descriptivo (`git checkout -b feature/nueva-funcionalidad`).
 3. Realiza tus cambios y haz un commit con un mensaje claro.
-4. Env�a un pull request para que lo revisemos.
+4. Envia un pull request para que lo revisemos.
 
-Por favor, aseg�rate de seguir el estilo de c�digo utilizado en el proyecto y agregar pruebas si es posible.
+Por favor, asegurate de seguir el estilo de codigo utilizado en el proyecto y agregar pruebas si es posible.
 
 ## Licencia 📄
-Este proyecto est� licenciado bajo la Licencia MIT.
+Este proyecto esta licenciado bajo la Licencia MIT.
 >>>>>>> 855a530349785eb2bd772562bf7cdb8decc9f854
