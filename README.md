@@ -1,112 +1,180 @@
-# QueHaceres-Cli
+# QueHaceres-Cli 📋✅
 
-# English Version
+[![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+![Demo CLI](https://via.placeholder.com/800x400.png?text=Captura+de+Demo+Interactiva)
+
+# Spanish Version
 
 ## Description
 QueHaceres-Cli is a command-line interface (CLI) application designed to help users manage their daily tasks efficiently. It allows users to add, remove, and list tasks directly from the terminal.
 
-## Features
-- Add new tasks
-- Remove existing tasks
-- List all tasks
-- Mark tasks as completed
+## Key Features 🚀
+
+- ✏️ Add new tasks
+- 🗑️ Remove existing tasks
+- 📝 List all tasks
+- ✅ Mark tasks as completed
+- 💾 Save tasks to a file
+- 📤 Load tasks from a file
+- 🛠️ Persistence in JSON format
 
 ## Installation
+
 To install QueHaceres-Cli, follow these steps:
 
 1. Clone the repository:
 2. Navigate to the project directory:
 3. Build the project:
 
-## Usage
+## Usage 🖥️
+
 To use QueHaceres-Cli, run the following command:
 
 ### Commands
-- `ayuda`: Help command.
-- `agregar <task>`: Adds a new task.
-- `eliminar <taskId>`: Removes a task by its ID.
-- `listar [status]`: Lists all tasks, status filter is optional.
-- `cambiar-estado <taskId>`: Marks a task as completed.
-- `actualizar <taskId> <status>`: Updates the status of the task.
 
-### Examples
-- Help: ayuda
-- Add a new task: agregar buy milk
-- Remove a task: eliminar 1
-- List all tasks: listar completed
-- Mark a task as completed: cambiar-estado 1 completed
+- `help`: Help command.
+- `add <description>`: Adds a new task.
+- `remove <taskId>`: Removes a task by its ID.
+- `list [status]`: Lists all tasks, with an optional status filter.
+- `change-status <taskId>`: Marks a task as completed.
+- `update <taskId> <status>`: Updates the status of the task.
 
-## Contribute
+### Examples 📚
+
+- Help: `help`
+- Add a new task: `add buy milk`
+- Remove a task: `remove 1`
+- List all tasks: `list completed`
+- Mark a task as completed: `change-status 1 completed`
+
+## Data Structure 💾
+
+Tasks are stored in JSON format:
+
+[
+  {
+    "Id": 1,
+    "Description": "MostriTareaUpdate",
+    "Status": 2,
+    "CreatedAt": "2025-01-25T15:09:38.1224134-03:00",
+    "UpdatedAt": "2025-01-25T15:12:21.3581263-03:00",
+    "CompletedAt": null,
+    "CancelledAt": null
+  }
+]
+
+## Possible Improvements 🗺️
+
+- Search tasks by keyword
+- Filter by date
+- Categorization system
+- Export to CSV format
+
+## Contributing 🤝
 
 You could include more specific details on how to contribute to the project, such as:
 
 - Create an issue if you find a bug or have a suggestion.
-- Follow the code style rules (if relevant).
+- Follow code style guidelines (if relevant).
 - Detail the pull request workflow.
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+�Contributions are welcome! Please fork the repository and submit a pull request.
 
-1. Make a fork of this repository.
-2. Create a new branch with a descriptive name (`git checkout -b feature/new-feature`).
+1. Fork this repository.
+2. Create a new branch with a descriptive name (git checkout -b feature/new-feature).
 3. Make your changes and commit with a clear message.
-4. Send a pull request for us to review.
+4. Submit a pull request for review.
 
 Please make sure to follow the code style used in the project and add tests if possible.
 
-## License
+License 📄
 This project is licensed under the MIT License.
+>>>>>>> 855a530349785eb2bd772562bf7cdb8decc9f854
 
-# Version Espa�ol
+# Versi�n Espa�ol
 
-## Descripci�n
-QueHaceres-Cli es una aplicaci�n de interfaz de l�nea de comandos (CLI) dise�ada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios a�adir, eliminar y listar tareas directamente desde el terminal.
+## Descripci�n
+QueHaceres-Cli es una aplicaci�n de interfaz de l�nea de comandos (CLI) dise�ada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios a�adir, eliminar y listar tareas directamente desde el terminal.
 
-## Caracter�sticas
-- A�adir nuevas tareas
-- Eliminar tareas existentes
-- Listar todas las tareas
-- Marcar tareas como completadas
+## Características principales 🚀
 
-## Instalaci�n
+- ✏️ Añadir nuevas tareas
+- 🗑️ Eliminar tareas existentes
+- 📝 Listar todas las tareas
+- ✅ Marcar tareas como completadas
+- 💾 Guardar tareas en archivo
+- 📤 Cargar tareas desde archivo
+- 🛠️ Persistencia en formato JSON
+
+## Instalaci�n
+
 Para instalar QueHaceres-Cli, siga estos pasos:
 
 1. Clone el repositorio:
 2. Navega hasta el directorio del proyecto:
 3. Construye el proyecto:
 
-## Uso
+## Uso 🖥️
+
 Para utilizar QueHaceres-Cli, ejecute el siguiente comando:
 
 ### Comandos
+
 - `ayuda`: Comando de ayuda.
-- `agregar <descripcion>`: A�ade una nueva tarea.
+- `agregar <descripcion>`: A�ade una nueva tarea.
 - `eliminar <taskId>`: Elimina una tarea por su ID.
 - `listar [estado]`: Lista todas las tareas, el filtro de estado es opcional.
 - `cambiar-estado <taskId>`: Marca una tarea como completada.
 - `actualizar <taskId> <estado>`: Actualiza el estado de la tarea.
 
-### Ejemplos
+### Ejemplos 📚
+
 - Ayuda: ayuda
-- A�adir una nueva tarea: agregar comprar leche
+- A�adir una nueva tarea: agregar comprar leche
 - Eliminar una tarea: eliminar 1
 - Listar todas las tareas: listar completadas
 - Marcar una tarea como completada: cambiar-estado 1 completada
 
-## Contribuir
+## Estructura de datos 💾
 
-Podr�as incluir detalles m�s espec�ficos sobre c�mo contribuir al proyecto, tales como:
+Las tareas se guardan en formato JSON:
+
+[
+  {
+  "Id": 1,
+  "Description": "MostriTareaUpdate",
+  "Status": 2,
+  "CreatedAt": "2025-01-25T15:09:38.1224134-03:00",
+  "UpdatedAt": "2025-01-25T15:12:21.3581263-03:00",
+  "CompletedAt": null,
+  "CancelledAt": null
+  }
+]
+
+## Posibles mejoras 🗺️
+
+- Búsqueda de tareas por palabra clave
+- Filtrado por fechas
+- Sistema de categorías
+- Exportación a formato CSV
+
+## Contribuir 🤝
+
+Podr�as incluir detalles m�s espec�ficos sobre c�mo contribuir al proyecto, tales como:
 - Crear un issue si encuentras un bug o tienes una sugerencia.
-- Seguir las reglas de estilo de c�digo (si es relevante).
+- Seguir las reglas de estilo de c�digo (si es relevante).
 - Detallar el flujo de trabajo del pull request.
 
-�Las contribuciones son bienvenidas! Por favor, haga un fork del repositorio y env�e un pull request.
+�Las contribuciones son bienvenidas! Por favor, haga un fork del repositorio y env�e un pull request.
 
 1. Haz un fork de este repositorio.
 2. Crea una nueva rama con un nombre descriptivo (`git checkout -b feature/nueva-funcionalidad`).
 3. Realiza tus cambios y haz un commit con un mensaje claro.
-4. Env�a un pull request para que lo revisemos.
+4. Env�a un pull request para que lo revisemos.
 
-Por favor, aseg�rate de seguir el estilo de c�digo utilizado en el proyecto y agregar pruebas si es posible.
+Por favor, aseg�rate de seguir el estilo de c�digo utilizado en el proyecto y agregar pruebas si es posible.
 
-## Licencia
-Este proyecto est� licenciado bajo la Licencia MIT.
+## Licencia 📄
+Este proyecto est� licenciado bajo la Licencia MIT.
+>>>>>>> 855a530349785eb2bd772562bf7cdb8decc9f854
