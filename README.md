@@ -52,6 +52,7 @@ To use QueHaceres-Cli, run the following command:
 
 Tasks are stored in JSON format:
 
+```json
 [
   {
     "Id": 1,
@@ -90,11 +91,10 @@ Please make sure to follow the code style used in the project and add tests if p
 
 License 📄
 This project is licensed under the MIT License.
->>>>>>> 855a530349785eb2bd772562bf7cdb8decc9f854
 
-# Versi�n Espa�ol
+# Version Espaool
 
-## Descripci�n
+## Descripcion
 QueHaceres-Cli es una aplicaci�n de interfaz de l�nea de comandos (CLI) dise�ada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios a�adir, eliminar y listar tareas directamente desde el terminal.
 
 ## Características principales 🚀
