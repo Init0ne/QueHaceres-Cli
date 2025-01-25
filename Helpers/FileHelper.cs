@@ -46,7 +46,7 @@ namespace QueHaceres_Cli.Helpers
             try
             {
                 EnsureFileExists();
-                string json = JsonSerializer.Serialize(tasks);
+                string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(FilePath, json);
             }
             catch (Exception e)
