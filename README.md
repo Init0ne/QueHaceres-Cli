@@ -179,4 +179,3 @@ Por favor, asegurate de seguir el estilo de codigo utilizado en el proyecto y ag
 
 ## Licencia 📄
 Este proyecto esta licenciado bajo la Licencia MIT.
->>>>>>> 855a530349785eb2bd772562bf7cdb8decc9f854
