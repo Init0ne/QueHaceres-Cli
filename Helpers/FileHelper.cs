@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Task = QueHaceres_Cli.Models.Task;
 
 namespace QueHaceres_Cli.Helpers
 {
