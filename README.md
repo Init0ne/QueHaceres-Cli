@@ -4,7 +4,7 @@
 
 ![Demo CLI](https://github.com/Init0ne/QueHaceres-Cli/blob/main/demo.png)
 
-# Spanish Version
+# English Version
 
 ## Description
 QueHaceres-Cli is a command-line interface (CLI) application designed to help users manage their daily tasks efficiently. It allows users to add, remove, and list tasks directly from the terminal.
@@ -93,7 +93,7 @@ Please make sure to follow the code style used in the project and add tests if p
 License 📄
 This project is licensed under the MIT License.
 
-# Version Espaool
+# Version Espanol
 
 ## Descripcion
 QueHaceres-Cli es una aplicacion de interfaz de linea de comandos (CLI) disenada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Permite a los usuarios anadir, eliminar y listar tareas directamente desde el terminal.
