@@ -33,12 +33,11 @@ To use QueHaceres-Cli, run the following command:
 
 ### Commands
 
-- `help`: Help command.
-- `add <description>`: Adds a new task.
-- `remove <taskId>`: Removes a task by its ID.
-- `list [status]`: Lists all tasks, with an optional status filter.
-- `change-status <taskId>`: Marks a task as completed.
-- `update <taskId> <status>`: Updates the status of the task.
+- `ayuda`: Help command.
+- `agregar <description>`: Adds a new task.
+- `eliminar <taskId>`: Removes a task by its ID.
+- `listar [status]`: Lists all tasks, with an optional status filter.
+- `cambiar-estado <taskId> <status>`: Updates the status of the task.
 
 ### Examples 📚
 
